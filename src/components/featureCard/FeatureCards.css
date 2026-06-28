@@ -105,3 +105,52 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 768px) {
+  .feature-cards-section {
+    width: 100%;
+    margin-top: 48px;
+    padding: 0 18px 60px;
+  }
+
+  .feature-cards-grid {
+    gap: 18px;
+  }
+
+  .feature-card {
+    border-radius: 16px;
+  }
+
+  .feature-card-visual {
+    height: 260px;
+  }
+
+  .feature-card-content {
+    padding: 22px 20px 24px;
+    gap: 16px;
+  }
+
+  .feature-card-label {
+    font-size: 15px;
+  }
+
+  .feature-card-title {
+    font-size: 19px;
+    line-height: 1.4;
+  }
+
+  .feature-card-arrow {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+@media (max-width: 480px) {
+  .feature-cards-section {
+    padding: 0 14px 50px;
+  }
+
+  .feature-card-visual {
+    height: 240px;
+  }
+}
